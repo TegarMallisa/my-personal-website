@@ -130,7 +130,7 @@ export default {
         {
           id: 1,
           name: 'Personal Website',
-          imageUrl: require('@/assets/images/portfolio-personal.png'),
+          imageUrl: require('@/assets/img/portfolio-personal.png'),
           status: 'My personal website, I created this website to display my profile, skills and projects. As well as my place to try new technology.',
           tech: 'VueJS 3, Tailwind',
           github: 'https://github.com/TegarMallisa/my-personal-website'
@@ -138,7 +138,7 @@ export default {
         {
           id: 2,
           name: 'SIGBARU',
-          imageUrl: require('@/assets/images/portfolio-sigbaru.png'),
+          imageUrl: require('@/assets/img/portfolio-sigbaru.png'),
           status: 'A warehouse information system that applies the FEFO method to control the flow of outgoing products in the warehouse.',
           tech: 'Nuxt 3, Tailwind, Express JS',
           github: 'https://github.com/TegarMallisa/frontend-sigbaru-petshop'
@@ -146,7 +146,7 @@ export default {
         {
           id: 3,
           name: 'Big Military System',
-          imageUrl: require('@/assets/images/portfolio-bms.png'),
+          imageUrl: require('@/assets/img/portfolio-bms.png'),
           status: 'A military reporting website designed to manage member data and streamline personnel reporting at each military base.',
           tech: 'Nuxt 3, Tailwind, Axios',
           github: 'https://github.com/TegarMallisa/babinsa-messenger-fe'
