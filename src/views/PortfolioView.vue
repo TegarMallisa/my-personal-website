@@ -56,7 +56,7 @@
               <div class="relative overflow-hidden rounded-t-xl mb-4">
                 <div class="aspect-video bg-gradient-to-br from-amber-200/5 to-yellow-500/5 flex items-center justify-center">
                   <img 
-                    :src="'/img/portfolio-' + item.imageUrl + '.png'"
+                    :src="item.imageUrl"
                     :alt="item.name"
                     class="w-full h-full object-cover transition-all duration-500 group-hover:scale-110"
                     loading="lazy">
