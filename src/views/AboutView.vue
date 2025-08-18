@@ -35,7 +35,7 @@ export default {
         {
           id: 5,
           name: 'NuxtJS',
-          imageUrl: '/img/nuxt.svg',
+          imageUrl: require('@/assets/images/nuxt.svg'),
           status: 'Intermediate',
           level: 75
         },
@@ -93,14 +93,14 @@ export default {
         {
           id: 5,
           name: 'Figma',
-          imageUrl: '/img/figma.svg',
+          imageUrl: require('@/assets/images/figma.svg'),
           status: 'Design',
           level: 85
         },
         {
           id: 6,
           name: 'Postman',
-          imageUrl: '/img/postman.svg',
+          imageUrl: require('@/assets/images/postman.svg'),
           status: 'API Testing',
           level: 85
         },
@@ -156,7 +156,7 @@ export default {
             
             <!-- Main image -->
             <img class="relative z-10 w-72 h-72 md:w-80 md:h-80 rounded-full mb-3 fadein-up object-cover border-4 border-amber-200/50 shadow-2xl group-hover:scale-105 transition-all duration-300"
-              src="/img/profil.jpg" alt="Profile Photo">
+            :src="require('@/assets/img/profil.jpg')" alt="Profile Photo">
             
             <!-- Floating particles -->
             <div class="absolute top-8 right-8 w-3 h-3 bg-amber-400 rounded-full animate-bounce opacity-75"></div>
