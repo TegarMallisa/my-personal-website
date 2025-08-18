@@ -90,7 +90,7 @@
   decoding="async" 
   data-nimg="1"
   class="w-10/12 md:h-auto rounded-full border-4 border-amber-200 pict relative z-10 transition-all duration-300 group-hover:scale-105 group-hover:rotate-2"
-  :src="require('@/img/profil.jpg')">
+  :src="require('@/assets/img/profil.jpg')">
         
         <!-- Floating particles effect -->
         <div class="absolute top-4 right-4 w-2 h-2 bg-amber-400 rounded-full animate-bounce opacity-75"></div>
