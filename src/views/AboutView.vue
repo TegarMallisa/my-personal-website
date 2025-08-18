@@ -35,7 +35,7 @@ export default {
         {
           id: 5,
           name: 'NuxtJS',
-          imageUrl: require('@/assets/images/nuxt.svg'),
+          imageUrl: require('@/assets/img/nuxt.svg'),
           status: 'Intermediate',
           level: 75
         },
@@ -93,14 +93,14 @@ export default {
         {
           id: 5,
           name: 'Figma',
-          imageUrl: require('@/assets/images/figma.svg'),
+          imageUrl: require('@/assets/img/figma.svg'),
           status: 'Design',
           level: 85
         },
         {
           id: 6,
           name: 'Postman',
-          imageUrl: require('@/assets/images/postman.svg'),
+          imageUrl: require('@/assets/img/postman.svg'),
           status: 'API Testing',
           level: 85
         },
