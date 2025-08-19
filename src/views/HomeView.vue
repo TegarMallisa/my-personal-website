@@ -64,7 +64,7 @@
           </svg>
           
           <!-- Button text -->
-          <span class="relative z-10">Download Resume</span>
+          <span class="relative z-10">Resume</span>
           
           <!-- Shine effect -->
           <div class="absolute inset-0 rounded-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300">
@@ -111,8 +111,7 @@ export default {
       txt: '',
       loopNum: 0,
       isDeleting: false,
-      // Ganti URL ini dengan link Google Drive Anda yang berisi file PDF resume
-      resumeUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID/view?usp=sharing'
+      resumeUrl: 'https://drive.google.com/file/d/1FD_VKrWNrDO8VNg0WYJnu2byPeD7L_-o/view?usp=sharing'
     };
   },
   mounted() {
